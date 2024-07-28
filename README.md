@@ -5,9 +5,9 @@
 - Select Swift as the language and deselect the option to use Storyboard as the interface.
 
 ## 2 - Deleting the Main.storyboard
-- Delete the Main.storyboard file.
-- Remove the Main value config entries in Build Settings.
-- Remove the key `UIMainStoryboardFile` and value `Main` in the Info.plist.
+- Delete the `Main.storyboard` file.
+- Remove the `Main` value config entries in Build Settings.
+- Remove the key `UIMainStoryboardFile` or `Storyboard Name`and value `Main` in the Info.plist.
 
 ## 3 - Creating a HelloWorldViewController file
 - Create a new file called `HelloWorldViewController.swift`
